@@ -12,8 +12,10 @@ The winning conditions are: <br>
 <li>Images displayed according to the option chosen by User as well as Computer</li>
 <li>Computer makes a random choice during each game</li>
 <li>Displaying Winner or Draw Game Message</li>
+</ul>
 <b>How to Play</b>
 <ul>
 <li>Choose one of the options(Rock, Paper or Scissors)</li>
 <li>Let the computer make a choice and the result will be displayed!</li>
 <li>You can play it again..</li>
+</ul>
