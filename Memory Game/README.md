@@ -1,5 +1,6 @@
 <b>About the Game</b>
 Memory Game is fun game focusing on memory and concentration. In this game, the user flips the card to reveal its image and find a matching pair. When all the cards are mathched, user wins<br>
+
 <b>Features</b>
 <ul>
 <li>Interactive interface displaying a 4 X 4 game board with animations for card flipping</li>
@@ -7,6 +8,7 @@ Memory Game is fun game focusing on memory and concentration. In this game, the 
 <li>Selected Cards get back to initial state if appropriate </li>
 <li>Reset option to reset the Game by flipping the matched cards to initial state</li>
 </ul>
+
 <b>How to Play</b>
 <ul>
 <li>Start by revealing or flipping a card</li>
