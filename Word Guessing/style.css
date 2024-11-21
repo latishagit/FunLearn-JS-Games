@@ -1,0 +1,122 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #947b9f;
+}
+
+.title {
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.5rem;
+    word-spacing: 1rem;
+    font-size: 4rem;
+}
+
+@keyframes word {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: translateY(-10px);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    75% {
+        transform: translateY(-10px);
+    }
+}
+
+.title span {
+    animation: word 5s 2 ease-in-out;
+    display: inline-block;
+}
+
+.title span:nth-child(odd) {
+    animation-duration: 2s;
+}
+
+.title span:nth-child(even) {
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.word {
+    margin-top: 3rem;
+    margin-left: 10rem;
+    display: flex;
+    height: 4rem;
+    align-items: space-evenly;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.underscore {
+    display: inline-block;
+    width: 5rem;
+    height: 3rem;
+    text-align: center;
+    border-bottom: 2px solid #C7CEDB;
+    font-size: 2.5rem;
+    color: aliceblue;
+}
+
+.msg {
+    margin-top: 10rem;
+    display: inline-block;
+    margin-left: 2rem;
+    height: fit-content;
+    border-bottom: 2px solid #C7CEDB;
+    width: fit-content;
+    font-size: 2.5rem;
+    color: #C7CEDB;
+    align-self: left;
+
+}
+
+.hint {
+    margin-top: 5rem;
+    display: inline-block;
+    text-align: center;
+    width: fit-content;
+    font-size: 2rem;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    width: 100%;
+}
+
+button {
+    border-radius: 10px;
+    padding: 0.8rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #683172;
+    color: #e0e0e0;
+}
