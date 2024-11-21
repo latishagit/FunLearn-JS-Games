@@ -1,6 +1,7 @@
 <b>About the Game</b>
 The Word Guessing game allows the user to guess the word using the provided hint or definition. Only 6 incorrect guesses are allowed. Each correct guess replaces the blanks provided for letters (of the word)
 with letters at appropriate positions.<br>
+
 <b>Features</b>
 <ul>
 <li>Randomly choosen word from a predefined arrays of words</li>
@@ -8,6 +9,7 @@ with letters at appropriate positions.<br>
 <li>Tracks the number of incorrect attempts and adds up letters when guessed correctly</li>
 <li>Includes a restart button for endless fun</li>
 </ul>
+
 <b>How to Play</b>
 <ul>
 <li>Start by reading the hint or definition</li>
