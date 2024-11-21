@@ -1,4 +1,4 @@
-<b>About the Game</b>
+<b>About the Game</b><br>
 The Word Guessing game allows the user to guess the word using the provided hint or definition. Only 6 incorrect guesses are allowed. Each correct guess replaces the blanks provided for letters (of the word)
 with letters at appropriate positions.<br>
 
